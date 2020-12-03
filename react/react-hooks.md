@@ -282,3 +282,15 @@ UI =>(data)=>{
   	)
   }
   ```
+
+  ## 进阶 Hooks
+
+  ### reducer(减速器; 缩减者，减压器，还原剂;)
+
+  - (设计模式)提供一种抽象状态行为的通用封装(action),以及计算过程的抽象方案(reducer)
+    ![视图](./assets/7.jpg)
+
+  - 给 reducer 很多信号，它帮你归整到一类信号或者几类信号
+  - 之所以将这样的函数称之为 reducer，是因为这种函数与被传入 Array.prototype.reduce(reducer, ?initialValue) 的回调函数属于相同的类型。
+  - reducer 是一个函数，它就是把很多 action 映射成为一个状态 state，
+    最终由 state 状态驱动视图的渲染
