@@ -65,11 +65,8 @@
 ### Go 语言命令行工具
 
 - go build:用于编译源码文件、代码包、依赖包
-
 - go run:可以编译并运行 Go 源码文件
-
 - go get:主要用来动态获取远程代码包
-
 - 支持跨平台编译 ,如:CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go
 
 ### 编写第一个 go 程序
