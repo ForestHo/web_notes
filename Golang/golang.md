@@ -69,6 +69,40 @@
 - go get:主要用来动态获取远程代码包
 - 支持跨平台编译 ,如:CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go
 
+### Go语言的设计初衷
+
+- 针对其他语言的痛点进行设计
+- 并加入并发编程
+- 为大数据，微服务，并发而生的通用编程语言
+
+Go语言与转型
+
+- 项目转型首选语言
+- 软件工程师转型，添加技术栈的首选语言
+- 这是一门为转型量身定制的课程
+
+Go语言很特别
+
+- 没有"对象"，没有继承多态、没有泛型，没有try/catch
+- 有接口，函数式编程，CSP并发模型(goroutine+channel)
+- 学习Go语言很简单，因为语法简单
+- 用好Go语言不容易，因为要调整三观
+
+![image-20201205213413775](/Users/joseph/WebstormProjects/web_notes/Golang/golang.assets/image-20201205213413775.png)
+
+![image-20201205213537427](/Users/joseph/WebstormProjects/web_notes/Golang/golang.assets/image-20201205213537427.png)
+
+### 实战项目
+
+- 从0开始，使用Go语言自主搭建简单分布式爬虫
+- 爬取相亲网站资料
+
+![image-20201205213824286](/Users/joseph/WebstormProjects/web_notes/Golang/golang.assets/image-20201205213824286.png)
+
+![image-20201205213847255](/Users/joseph/WebstormProjects/web_notes/Golang/golang.assets/image-20201205213847255.png)
+
+单任务版=>并发版=>分布式版
+
 ### 编写第一个 go 程序
 
 ```go
@@ -82,3 +116,4 @@ func main(){
 }
 //main函数没有参数和返回值
 ```
+
